@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="10sp"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="10sp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="7sp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="7sp"
+                android:text="titre">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16sp"
+                    android:paddingTop="16sp"
+
+                    android:text="Titre"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16sp"
+                    android:paddingTop="16sp"
+
+                    android:text="details"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16sp"
+                    android:paddingTop="16sp"
+
+                    android:paddingBottom="7sp"
+                    android:text="age"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="158dp"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                app:srcCompat="@drawable/a" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

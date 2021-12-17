@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/pizza"
+            android:title="Pizza" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/sandwich"
+            android:title="Sandwich" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/salad"
+            android:title="Salad" />
+
+
+
+
+        <item
+            android:id="@+id/Dessert"
+            android:icon="@drawable/dessert"
+            android:title="Dessert" />
+        <item
+            android:id="@+id/Cake"
+            android:icon="@drawable/cake"
+            android:title="Cake" />
+        <item
+            android:id="@+id/Drink"
+            android:icon="@drawable/drink"
+            android:title="Drink" />
+        <item
+            android:id="@+id/Plats"
+            android:icon="@drawable/plats"
+            android:title="Plats" />
+        <item
+            android:id="@+id/Plats2"
+
+            android:title="..." />
+
+    </group>
+</menu>

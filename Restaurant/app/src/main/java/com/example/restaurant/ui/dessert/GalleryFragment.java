@@ -58,13 +58,13 @@ public class GalleryFragment extends Fragment {
         //    ListItem listitem = new ListItem("name" + (x+1), "Dtails", "23");
         //    listitems.add(listitem);
         //}
-        ListItem item1 = new ListItem("dessert", "4IIR2", "23", R.drawable.a);//getResources().getResourceEntryName(R.drawable.a)
+        ListItem item1 = new ListItem("Tiramisù à l'italienne", "20 DH", "", R.drawable.tiramis____l_italienne);//getResources().getResourceEntryName(R.drawable.a)
         //listitems.add(item1);
-        ListItem item2 = new ListItem("amina", "2IIR2", "22", R.drawable.b);//R.drawable.b return id c'est un int
-        ListItem item3 = new ListItem("amine", "4IIR1", "21", R.drawable.c);
+        ListItem item2 = new ListItem("Porridge crémeux", "15 DH", "", R.drawable.porridge_cr_meux);//R.drawable.b return id c'est un int
+        ListItem item3 = new ListItem("Cookies faciles", "17 DH", "", R.drawable.cookies_faciles);
         //ListItem item4 = new ListItem("maria", "4IIR2", "20", R.drawable.ic_launcher_foreground);
-        ListItem item5 = new ListItem("hajar", "3IIR4", "23", R.drawable.e);
-        ListItem item6 = new ListItem("hamza", "4IFA2", "24", R.drawable.f);
+        ListItem item5 = new ListItem("Meringue", "20 DH", "", R.drawable.meringue);
+        ListItem item6 = new ListItem("Rochers coco", "28 DH", "", R.drawable.rochers_coco);
         //ListItem item7 = new ListItem("ayman", "3IIR1", "23", getResources().getResourceEntryName(R.drawable.j));
         listitems.add(item1);
         listitems.add(item2);

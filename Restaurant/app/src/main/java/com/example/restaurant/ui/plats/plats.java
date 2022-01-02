@@ -57,13 +57,13 @@ public class plats extends Fragment {
         //    ListItem listitem = new ListItem("name" + (x+1), "Dtails", "23");
         //    listitems.add(listitem);
         //}
-        ListItem item1 = new ListItem("plats", "4IIR2", "23", R.drawable.a);//getResources().getResourceEntryName(R.drawable.a)
+        ListItem item1 = new ListItem("Riz pilaf", "100 DH", "", R.drawable.riz_pilaf);//getResources().getResourceEntryName(R.drawable.a)
         //listitems.add(item1);
-        ListItem item2 = new ListItem("amina", "2IIR2", "22", R.drawable.b);//R.drawable.b return id c'est un int
-        ListItem item3 = new ListItem("amine", "4IIR1", "21", R.drawable.c);
+        ListItem item2 = new ListItem("Rosbeef", "80 DH", "", R.drawable.rosbeef);//R.drawable.b return id c'est un int
+        ListItem item3 = new ListItem("Daube provençale", "90 DH", "", R.drawable.daube_proven_ale);
         //ListItem item4 = new ListItem("maria", "4IIR2", "20", R.drawable.ic_launcher_foreground);
-        ListItem item5 = new ListItem("hajar", "3IIR4", "23", R.drawable.e);
-        ListItem item6 = new ListItem("hamza", "4IFA2", "24", R.drawable.f);
+        ListItem item5 = new ListItem("Aubergines", "55 DH", "", R.drawable.aubergines);
+        ListItem item6 = new ListItem("Filet mignon", "80 DH", "", R.drawable.filet_mignon);
         //ListItem item7 = new ListItem("ayman", "3IIR1", "23", getResources().getResourceEntryName(R.drawable.j));
         listitems.add(item1);
         listitems.add(item2);

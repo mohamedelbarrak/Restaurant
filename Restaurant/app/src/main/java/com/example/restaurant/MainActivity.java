@@ -1,6 +1,10 @@
 package com.example.restaurant;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +16,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -20,9 +25,21 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements LocationListener {
 
     private AppBarConfiguration mAppBarConfiguration;
+
+    LocationManager locationManager;
+    @SuppressLint("MissingPermission")
+    private void getLocation2 (){
+        try{
+            locationManager =(LocationManager) getApplicationContext().getSystemService(LOCATION_SERVICE);
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,5000,5,MainActivity.this);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,4 +89,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onLocationChanged(@NonNull Location location) {
+
+    }
 }

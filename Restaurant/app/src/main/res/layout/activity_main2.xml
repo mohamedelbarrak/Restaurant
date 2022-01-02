@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="144dp"
-        android:layout_height="46dp"
+        android:layout_width="370dp"
+        android:layout_height="53dp"
         android:gravity="center"
         android:text="TextView"
         android:textSize="24sp"
@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
+        app:layout_constraintVertical_bias="0.937" />
 
     <TextView
         android:id="@+id/description"
@@ -31,15 +31,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.601" />
+        app:layout_constraintVertical_bias="0.57" />
 
     <TextView
         android:id="@+id/age"
-        android:layout_width="142dp"
-        android:layout_height="52dp"
+        android:layout_width="320dp"
+        android:layout_height="111dp"
         android:gravity="center"
         android:text="TextView"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -80,7 +80,7 @@
         android:onClick="onClickWhatsApp1"
         android:text="Commander"
         android:textSize="24sp"
-        app:backgroundTint="#F44336"
+        app:backgroundTint="#0026FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

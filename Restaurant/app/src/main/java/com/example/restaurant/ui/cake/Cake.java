@@ -57,13 +57,13 @@ public class Cake extends Fragment {
         //    ListItem listitem = new ListItem("name" + (x+1), "Dtails", "23");
         //    listitems.add(listitem);
         //}
-        ListItem item1 = new ListItem("cake", "4IIR2", "23", R.drawable.e);//getResources().getResourceEntryName(R.drawable.a)
+        ListItem item1 = new ListItem("Cake à la pomme", "40 DH", "", R.drawable.cake___la_pomme);//getResources().getResourceEntryName(R.drawable.a)
         //listitems.add(item1);
-        ListItem item2 = new ListItem("amina", "2IIR2", "22", R.drawable.b);//R.drawable.b return id c'est un int
-        ListItem item3 = new ListItem("amine", "4IIR1", "21", R.drawable.c);
+        ListItem item2 = new ListItem("Cake au citron", "45 DH", "", R.drawable.cake_au_citron);//R.drawable.b return id c'est un int
+        ListItem item3 = new ListItem("Cake au jambon", "50 DH", "", R.drawable.cake_au_jambon);
         //ListItem item4 = new ListItem("maria", "4IIR2", "20", R.drawable.ic_launcher_foreground);
-        ListItem item5 = new ListItem("hajar", "3IIR4", "23", R.drawable.a);
-        ListItem item6 = new ListItem("hamza", "4IFA2", "24", R.drawable.f);
+        ListItem item5 = new ListItem("Cake marbré", "100 DH", "", R.drawable.cake_marbr_);
+        ListItem item6 = new ListItem("Angel Cake", "200 DH", "", R.drawable.angel_cake);
         //ListItem item7 = new ListItem("ayman", "3IIR1", "23", getResources().getResourceEntryName(R.drawable.j));
         listitems.add(item1);
         listitems.add(item2);

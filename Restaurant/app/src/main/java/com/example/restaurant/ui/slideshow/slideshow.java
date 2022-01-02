@@ -58,21 +58,21 @@ public class slideshow extends Fragment {
         //    ListItem listitem = new ListItem("name" + (x+1), "Dtails", "23");
         //    listitems.add(listitem);
         //}
-        ListItem item1 = new ListItem("slideshow", "4IIR2", "23", R.drawable.a);//getResources().getResourceEntryName(R.drawable.a)
+        ListItem item1 = new ListItem("César au poulet", "70 DH", "4 escalopes de poulet, quelques croutons, 1 échalote, 7 biscottes, sel, poivre ...", R.drawable.c_sar_au_poulet);//getResources().getResourceEntryName(R.drawable.a)
         //listitems.add(item1);
-        ListItem item2 = new ListItem("amina", "2IIR2", "22", R.drawable.b);//R.drawable.b return id c'est un int
-        ListItem item3 = new ListItem("amine", "4IIR1", "21", R.drawable.c);
+        ListItem item2 = new ListItem("Pâtes au thon", "33 DH", "1 boîte de thon, 1 tomate, 200 g de penne, 40 g d'olive noires dénoyautées, sel, poivre", R.drawable.p_tes_au_thon);//R.drawable.b return id c'est un int
+        ListItem item3 = new ListItem("Grecque simple", "30 DH", "500 g de tomates cerise, poivron vert, olives noires, Sel et poivre, feta, oignon rouge, concombre", R.drawable.grecque_simple);
         //ListItem item4 = new ListItem("maria", "4IIR2", "20", R.drawable.ic_launcher_foreground);
-        ListItem item5 = new ListItem("hajar", "3IIR4", "23", R.drawable.e);
-        ListItem item6 = new ListItem("hamza", "4IFA2", "24", R.drawable.f);
-        //ListItem item7 = new ListItem("ayman", "3IIR1", "23", getResources().getResourceEntryName(R.drawable.j));
+        ListItem item5 = new ListItem("César simple", "40 DH", "2 coeurs de laitue romaine lavées et essorées, 4 tranches de pain (sans croûtes), 2 c. à soupe d'huile ...", R.drawable.e);
+        ListItem item6 = new ListItem("Niçoise", "60 DH", "2 oeufs, feuilles de mesclun, thon égoutté, olives noires, poivron vert, sel, poivre ...", R.drawable.ni_oise);
+        ListItem item7 = new ListItem("Russe", "3IIR1", "5 pommes de terre, 1/2 poivron rouge, 2 carottes, poivre, sel ", R.drawable.russe);
         listitems.add(item1);
         listitems.add(item2);
         listitems.add(item3);
         //listitems.add(item4);
         listitems.add(item5);
         listitems.add(item6);
-        //listitems.add(item7);
+        listitems.add(item7);
         adapter = new MyAdaptor(com.example.restaurant.ui.slideshow.slideshow.this.getActivity(), listitems);
         recyclerView1.setAdapter(adapter);//lier recyclerView1 avec adapter
 

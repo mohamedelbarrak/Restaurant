@@ -57,13 +57,13 @@ public class Drink extends Fragment {
         //    ListItem listitem = new ListItem("name" + (x+1), "Dtails", "23");
         //    listitems.add(listitem);
         //}
-        ListItem item1 = new ListItem("Drink", "4IIR2", "23", R.drawable.a);//getResources().getResourceEntryName(R.drawable.a)
+        ListItem item1 = new ListItem("Coca-Cola", "10 DH", "", R.drawable.coca);//getResources().getResourceEntryName(R.drawable.a)
         //listitems.add(item1);
-        ListItem item2 = new ListItem("amina", "2IIR2", "22", R.drawable.b);//R.drawable.b return id c'est un int
-        ListItem item3 = new ListItem("amine", "4IIR1", "21", R.drawable.c);
+        ListItem item2 = new ListItem("Jus d'orange", "20 DH", "", R.drawable.jus_d_orange);//R.drawable.b return id c'est un int
+        ListItem item3 = new ListItem("Panaché", "25 DH", "", R.drawable.panach_);
         //ListItem item4 = new ListItem("maria", "4IIR2", "20", R.drawable.ic_launcher_foreground);
-        ListItem item5 = new ListItem("hajar", "3IIR4", "23", R.drawable.e);
-        ListItem item6 = new ListItem("hamza", "4IFA2", "24", R.drawable.f);
+        ListItem item5 = new ListItem("Jus d'asperges", "18 DH", "", R.drawable.jus_d_asperges);
+        ListItem item6 = new ListItem("Jus de pêche", "20 DH", "", R.drawable.jus_de_p_che);
         //ListItem item7 = new ListItem("ayman", "3IIR1", "23", getResources().getResourceEntryName(R.drawable.j));
         listitems.add(item1);
         listitems.add(item2);

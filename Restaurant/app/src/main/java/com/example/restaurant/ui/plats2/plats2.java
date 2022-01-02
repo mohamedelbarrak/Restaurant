@@ -57,13 +57,13 @@ public class plats2 extends Fragment {
         //    ListItem listitem = new ListItem("name" + (x+1), "Dtails", "23");
         //    listitems.add(listitem);
         //}
-        ListItem item1 = new ListItem("plats2 ou ...", "4IIR2", "23", R.drawable.a);//getResources().getResourceEntryName(R.drawable.a)
-        //listitems.add(item1);
-        ListItem item2 = new ListItem("amina", "2IIR2", "22", R.drawable.b);//R.drawable.b return id c'est un int
-        ListItem item3 = new ListItem("amine", "4IIR1", "21", R.drawable.c);
+        ListItem item1 = new ListItem("Pintade", "100 DH", "", R.drawable.pintade);//getResources().getResourceEntryName(R.drawable.a)
+        //https://www.cuisineaz.com/recettes/boeuf-bourguignon-simple-65163.aspx
+        ListItem item2 = new ListItem("Chili con", "200 DH", "", R.drawable.chili_con);//R.drawable.b return id c'est un int
+        ListItem item3 = new ListItem("Osso bucco", "55 DH", "", R.drawable.osso_bucco);
         //ListItem item4 = new ListItem("maria", "4IIR2", "20", R.drawable.ic_launcher_foreground);
-        ListItem item5 = new ListItem("hajar", "3IIR4", "23", R.drawable.e);
-        ListItem item6 = new ListItem("hamza", "4IFA2", "24", R.drawable.f);
+        ListItem item5 = new ListItem("Ratatouille", "200 DH", "", R.drawable.ratatouille);
+        ListItem item6 = new ListItem("Boeuf", "100 DH", "", R.drawable.boeuf);
         //ListItem item7 = new ListItem("ayman", "3IIR1", "23", getResources().getResourceEntryName(R.drawable.j));
         listitems.add(item1);
         listitems.add(item2);

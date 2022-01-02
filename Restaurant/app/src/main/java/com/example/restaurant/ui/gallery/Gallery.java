@@ -57,13 +57,19 @@ public class Gallery extends Fragment {
         //    ListItem listitem = new ListItem("name" + (x+1), "Dtails", "23");
         //    listitems.add(listitem);
         //}
-        ListItem item1 = new ListItem("gallery", "4IIR2", "23", R.drawable.a);//getResources().getResourceEntryName(R.drawable.a)
+        ListItem item1 = new ListItem("Thon mayonnaise", "40 DH", "2 baguettes de pain frais, 4 œufs, 1 grosse boîte de thon au naturel, Poivre, 1 salade, 2 tomates, Mayonnaise", R.drawable.sandwich1);//getResources().getResourceEntryName(R.drawable.a)
         //listitems.add(item1);
-        ListItem item2 = new ListItem("amina", "2IIR2", "22", R.drawable.b);//R.drawable.b return id c'est un int
-        ListItem item3 = new ListItem("amine", "4IIR1", "21", R.drawable.c);
+        ListItem item2 = new ListItem("Le viandar", "50 DH", "Pour les amoureux de bonne viande, voici un sandwich au rôti de bœuf finement tranché avec une bonne dose de moutarde à l’ancienne, des oignons confits et quelques cornichons croquants.", R.drawable.sandwitch);//R.drawable.b return id c'est un int
+        ListItem item3 = new ListItem("Grec", "66 DH", "filet de porc, de bœuf ou d’agneau, 4 oignons jaunes ou rouges, 3 tomates, Sauce tzatziki, 3 gousses d'ail", R.drawable.sandwich_grec);
         //ListItem item4 = new ListItem("maria", "4IIR2", "20", R.drawable.ic_launcher_foreground);
-        ListItem item5 = new ListItem("hajar", "3IIR4", "23", R.drawable.e);
-        ListItem item6 = new ListItem("hamza", "4IFA2", "24", R.drawable.f);
+        ListItem item5 = new ListItem("Cuban", "49 DH", "1 petit pain blanc individuel, fines tranches de rôti de porc, pickles, moutarde douce ...", R.drawable.cuban_sandwich);
+        ListItem item6 = new ListItem("Jambon", "66 DH", "1 baguette, 4 tranches de jambon blanc à acheter chez un vrai charcutier, 1 tomate, beurre, 4 feuilles de laitue, quelques cornichons", R.drawable.sandwich_au_jambon);
+
+        ListItem item7 = new ListItem("Bifana", "70 DH", "4 petits pains, 4 gousses d'ail, paprika, sel, poivre, verres de vin blanc ...", R.drawable.sandwich_bifana);
+        ListItem item8 = new ListItem("Thon", "55 DH", "8 tranches de pain aux céréales, 4 feuilles de salade verte, 1 oignon rouge, 1 boîte de thon, sel, poivre ...", R.drawable.sandwichs_au_thon);
+        ListItem item9 = new ListItem("Suédois", "44 DH", "8 pains suédois plats, 1 petite tomate, 4 épaisses tranches de saumon fumé, 1/2 concombre, Sel, poivre ...", R.drawable.sandwich_su_dois);
+
+
         //ListItem item7 = new ListItem("ayman", "3IIR1", "23", getResources().getResourceEntryName(R.drawable.j));
         listitems.add(item1);
         listitems.add(item2);
@@ -71,6 +77,10 @@ public class Gallery extends Fragment {
         //listitems.add(item4);
         listitems.add(item5);
         listitems.add(item6);
+
+        listitems.add(item7);
+        listitems.add(item8);
+        listitems.add(item9);
         //listitems.add(item7);
         adapter = new MyAdaptor(Gallery.this.getActivity(), listitems);
         recyclerView1.setAdapter(adapter);//lier recyclerView1 avec adapter
